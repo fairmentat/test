@@ -1,7 +1,7 @@
 body {
   margin: 0;
   min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: "Arial";
   font-size: 16px;
   line-height: 32px;
   color: #222222;
@@ -14,7 +14,8 @@ body {
 .container {
   max-width: 928px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 10px;
+  text-align: center;
 }
 
 .page-header {
@@ -57,7 +58,6 @@ body {
 
 .heading {
   margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
@@ -75,7 +75,7 @@ body {
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
@@ -172,12 +172,11 @@ body {
 .page-footer {
   padding: 40px 0;
   background-color: #00417d;
-  color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
